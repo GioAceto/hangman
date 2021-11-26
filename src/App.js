@@ -6,6 +6,9 @@ function App() {
   return (
     <>
       <Header />
+      <div className='game-container'>
+        <Figure />
+      </div>
     </>
   );
 }
